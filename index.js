@@ -8,7 +8,7 @@ const category = require('./data/category.json');
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('This is server site of p skool')
 })
 
 app.get('/category', (req, res) => {
